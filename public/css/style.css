@@ -9553,71 +9553,71 @@ header #caroussel .rounded-circle {
   margin-top: 30px;
 }
 
-.carte {
+#carte {
   background: url("../../images/main_bg.jpg") repeat;
 }
-.carte .container {
+#carte .container {
   background-color: white;
   border: 1px solid #EEEEEE;
 }
-.carte .container .box-left-top {
-  background-image: url("../../images/box-left-top.png");
+#carte .container .box-left-top {
+  background-image: url("../../../images/box-left-top.png");
   background-repeat: no-repeat;
   background-position-x: left;
   margin: 0;
   padding: 0;
 }
-.carte .container .box-right-top {
-  background: url("../../images/box-right-top.png");
+#carte .container .box-right-top {
+  background: url("../../../images/box-right-top.png");
   background-repeat: no-repeat;
   background-position-x: right;
   margin: 0;
   padding: 0;
 }
-.carte .container #menu .col-2 a {
+#carte .container #menu #icones a {
   border-radius: 0;
 }
-.carte .container #menu .col-2 #v-pills-home-tab {
+#carte .container #menu #icones #v-pills-home-tab {
   border-right: 5px solid #dc3545;
   background: transparent;
   padding-right: 11px;
 }
-.carte .container #menu .col-2 #v-pills-home-tab .fa-mug-hot {
+#carte .container #menu #icones #v-pills-home-tab .fa-mug-hot {
   color: #dc3545;
 }
-.carte .container #menu .col-2 .fas {
+#carte .container #menu #icones .fas {
   color: #E1E0E0;
   padding-bottom: 10px;
 }
-.carte .container #menu .col-2 h3 {
+#carte .container #menu #icones h3 {
   font-family: "Courgette", cursive;
   font-size: 20px;
   color: black !important;
   margin: 0;
 }
-.carte .container #menu .col-5 .rounded-circle {
+#carte .container #menu .steak .rounded-circle {
   border: 5px solid #EEEEEE;
   width: 100%;
 }
-.carte .container #menu .col-5 p {
+#carte .container #menu .steak p {
   margin: 0;
 }
-.carte .container #menu span {
+#carte .container #menu span {
   background-color: #EEEEEE;
   color: #dc3545;
 }
-.carte .container .box-bottom-left {
-  background-image: url("../../images/box-bottom-left.png");
+#carte .container .box-bottom-left {
+  background-image: url("../../../images/box-bottom-left.png");
   background-repeat: no-repeat;
   background-position-x: left;
   margin: 0;
   padding: 0;
 }
-.carte .container #bottom-carte {
+#carte .container #bottom-carte {
   height: 119px;
 }
-.carte .container .box-bottom-right {
-  background: url("../../images/box-bottom_right.png");
+#carte .container .box-bottom-right {
+  background: url("../../../images/box-bottom_right.png");
   background-repeat: no-repeat;
   background-position-x: right;
   margin: 0;
@@ -9626,6 +9626,95 @@ header #caroussel .rounded-circle {
 
 #chefs {
   background: url("/images/team_background.jpg");
+}
+
+#book-blog {
+  background: url("../../images/main_bg.jpg") repeat;
+}
+#book-blog .container {
+  background-color: white;
+  border: 1px solid #EEEEEE;
+}
+#book-blog #book .box-left-top {
+  background-image: url("../../../images/box-left-top-grey.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  margin: 0;
+  padding: 0;
+}
+#book-blog #book .box-right-top {
+  background: url("../../../images/box-right-top-grey.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin: 0;
+  padding: 0;
+}
+#book-blog .bg-table {
+  background: url("../../../images/book_table_bg.jpg");
+  padding: 30px 70px;
+  border-radius: 15px;
+}
+#book-blog .bg-table p {
+  font-size: 20px;
+  font-weight: 200;
+}
+#book-blog .bg-table p span {
+  font-size: 23px;
+  font-weight: 300;
+}
+#book-blog .bg-table .form-control {
+  border-radius: 15px;
+}
+#book-blog .input-group input {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+#book-blog .input-group button {
+  border-color: #ced4da;
+  border-left: none;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#book-blog a {
+  font-size: 100%;
+  font-weight: 300;
+  padding: 30px;
+}
+#book-blog #blog .box-left-bottom {
+  background-image: url("../../../images/box-bottom-left-grey.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  margin: 0;
+  padding: 0;
+}
+#book-blog #blog .box-right-bottom {
+  background: url("../../../images/box-bottom_right-grey.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin: 0;
+  padding: 0;
+}
+#book-blog #blog .images-blog {
+  margin-bottom: -30px;
+}
+#book-blog #blog .images-blog .img-fluid {
+  border-radius: 15px;
+  border: 5px solid #EEEEEE;
+}
+#book-blog #blog .likes {
+  background-color: #dc3545;
+  border-radius: 15px;
+}
+#book-blog #blog .likes span {
+  font-size: 25px;
+  font-weight: 400;
+}
+#book-blog #blog .likes .slash {
+  font-weight: 200;
+  font-size: 30px;
 }
 
 /*!
@@ -15213,6 +15302,10 @@ readers do not read off random characters that represent icons */
   font-size: 35px;
   color: black;
   margin: 0;
+}
+.black-title .red-title {
+  color: #dc3545;
+  font-size: 50px;
 }
 
 .white-title {

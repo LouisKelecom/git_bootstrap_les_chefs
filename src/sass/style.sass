@@ -9,6 +9,7 @@ $courgette: 'Courgette', cursive
 @import '../sass/imports/_header.sass'
 @import '../sass/imports/_carte.sass'
 @import '../sass/imports/_chefs.sass'
+@import '../sass/imports/_book-blog.sass'
 
 // FONTAWESOME    
 $fa-font-path: "../webfonts"
@@ -16,15 +17,19 @@ $fa-font-path: "../webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
+// RAJOUTER responsivité de l'écran col-12 col-md-4 col-lg-3 dans l'index!!!
 
-
-// TITRES "OUR"
+// TITRES
 .black-title
     font-family: $courgette
     font-size: 35px
     color: black
     margin: 0
 
+    .red-title
+        color: $red
+        font-size: 50px
+    
 .white-title
     font-family: $courgette
     font-size: 35px
@@ -34,7 +39,7 @@ $fa-font-path: "../webfonts"
     .red-title
         color: $red
         font-size: 50px
-    
+
 .decoration_line
     background: url("../../images/decoration_line.png") center no-repeat
     height: 13px
