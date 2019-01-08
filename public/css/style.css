@@ -9543,6 +9543,7 @@ header {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner1.jpg") no-repeat center center;
   background-size: cover;
   height: 900px;
+  position: relative;
 }
 header nav .navbar {
   border-top: 1px solid white;
@@ -9577,8 +9578,11 @@ header #caroussel .rounded-circle {
 
 .top-decoration {
   background: url("../../images/bottom_decoration_img.png"), repeat;
-  height: 15px;
+  height: 11px;
+  width: 100%;
   margin-top: 30px;
+  position: absolute;
+  bottom: 0;
 }
 
 #carte {
@@ -9760,6 +9764,17 @@ header #caroussel .rounded-circle {
   color: #dc3545;
 }
 
+#contact {
+  background: url("../../images/main_bg.jpg");
+}
+#contact .bg-danger {
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "Courgette";
+  src: url("../../public/fonts/Courgette-Regular.ttf");
+}
 /*!
  * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
