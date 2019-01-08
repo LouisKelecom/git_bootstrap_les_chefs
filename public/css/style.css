@@ -9511,6 +9511,34 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.black-title {
+  font-family: "Courgette", cursive;
+  font-size: 35px;
+  color: black;
+  margin: 0;
+}
+.black-title .red-title {
+  color: #dc3545;
+  font-size: 50px;
+}
+
+.white-title {
+  font-family: "Courgette", cursive;
+  font-size: 35px;
+  color: white;
+  margin: 0;
+}
+.white-title .red-title {
+  color: #dc3545;
+  font-size: 50px;
+}
+
+.decoration_line {
+  background: url("../../../images/decoration_line.png") center no-repeat;
+  height: 13px;
+  margin-bottom: 50px;
+}
+
 header {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner1.jpg") no-repeat center center;
   background-size: cover;
@@ -9715,6 +9743,21 @@ header #caroussel .rounded-circle {
 #book-blog #blog .likes .slash {
   font-weight: 200;
   font-size: 30px;
+}
+
+#testimonials {
+  background: url("../../../images/testimonials_background.jpg");
+}
+#testimonials .rounded-circle {
+  border: 5px solid #EEEEEE;
+}
+#testimonials .manager {
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+#testimonials .manager h6 {
+  color: #dc3545;
 }
 
 /*!
@@ -15295,34 +15338,6 @@ readers do not read off random characters that represent icons */
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
-}
-
-.black-title {
-  font-family: "Courgette", cursive;
-  font-size: 35px;
-  color: black;
-  margin: 0;
-}
-.black-title .red-title {
-  color: #dc3545;
-  font-size: 50px;
-}
-
-.white-title {
-  font-family: "Courgette", cursive;
-  font-size: 35px;
-  color: white;
-  margin: 0;
-}
-.white-title .red-title {
-  color: #dc3545;
-  font-size: 50px;
-}
-
-.decoration_line {
-  background: url("../../images/decoration_line.png") center no-repeat;
-  height: 13px;
-  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
