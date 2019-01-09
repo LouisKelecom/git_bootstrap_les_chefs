@@ -9576,8 +9576,8 @@ header #caroussel .rounded-circle {
   height: 25px;
 }
 
-.top-decoration {
-  background: url("../../images/bottom_decoration_img.png"), repeat;
+#header-decoration {
+  background: url("../../../images/bottom_decoration_img.png"), repeat;
   height: 11px;
   width: 100%;
   margin-top: 30px;
@@ -9769,6 +9769,30 @@ header #caroussel .rounded-circle {
 }
 #contact .bg-danger {
   border-radius: 10px;
+}
+
+footer {
+  background: url("../../../images/footer_background.jpg");
+  position: relative;
+}
+footer h4 {
+  font-weight: 300;
+}
+footer p {
+  font-weight: lighter;
+}
+footer #footer-decoration {
+  background: url("../../../images/footer_bottom_decoration_img.png"), repeat;
+  height: 11px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+footer .brochette {
+  background: url("../../../images/instragram_gallery_img1.jpg");
+}
+footer .salade {
+  background: url("../../../images/instragram_gallery_img2.jpg");
 }
 
 @font-face {
