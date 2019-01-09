@@ -9658,6 +9658,7 @@ header #caroussel .rounded-circle {
 
 #chefs {
   background: url("/images/team_background.jpg");
+  background-size: cover;
 }
 
 #book-blog {
@@ -9751,6 +9752,7 @@ header #caroussel .rounded-circle {
 
 #testimonials {
   background: url("../../../images/testimonials_background.jpg");
+  background-size: cover;
 }
 #testimonials .rounded-circle {
   border: 5px solid #EEEEEE;
@@ -9774,6 +9776,7 @@ header #caroussel .rounded-circle {
 footer {
   background: url("../../../images/footer_background.jpg");
   position: relative;
+  background-size: cover;
 }
 footer h4 {
   font-weight: 300;
@@ -9788,11 +9791,8 @@ footer #footer-decoration {
   position: absolute;
   top: 0;
 }
-footer .brochette {
-  background: url("../../../images/instragram_gallery_img1.jpg");
-}
-footer .salade {
-  background: url("../../../images/instragram_gallery_img2.jpg");
+footer i {
+  background-color: white;
 }
 
 @font-face {
