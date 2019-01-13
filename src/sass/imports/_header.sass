@@ -1,45 +1,48 @@
 header
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner1.jpg") no-repeat center center 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../../public/images/banner1.jpg") no-repeat center center 
     background-size: cover
-    height: 900px
+    height: 700px
     position: relative
     
-    nav .navbar
-        border-top: 1px solid white
-        border-bottom: 1px solid white
-    
-    .nav-link
-        color: white
-        padding: 13px 20px !important
-    
-    .taste
-    
-        p
-            font-family: 'Courgette', cursive
-            font-size: 50px
-            color: white
-
-            .small-title
-                font-size: 30px
-
-            #taste
-                color: $red
-
-        .badges
-            margin-bottom: 17rem
-
-    #caroussel
+    nav 
         
-        #ronds-gris
-            display: flex
-            justify-content: center
-            
-        .rounded-circle
+        a:hover
+            background-color: #C82333
+        
+    
+        .nav-link
+            color: white
+            padding: 13px 20px !important
+            border-top: 1px solid white
+            border-bottom: 1px solid white
+    
+    .carousel
+        position: unset
+
+        .carousel-indicators li
             width: 25px
             height: 25px
 
+        .taste
+            padding-top: 200px
+
+            p
+                font-family: 'Courgette', cursive
+                font-size: 50px
+                color: white
+
+                .small-title
+                    font-size: 30px
+
+                #taste
+                    color: $red
+
+            .badges
+                margin-bottom: 17rem
+
+
 #header-decoration
-    background: url("../../../images/bottom_decoration_img.png"), repeat
+    background: url("../../../public/images/bottom_decoration_img.png"), repeat
     height: 11px
     width: 100%
     margin-top: 30px

@@ -9511,6 +9511,12 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .black-title {
   font-family: "Courgette", cursive;
   font-size: 35px;
@@ -9534,50 +9540,53 @@ h3 {
 }
 
 .decoration_line {
-  background: url("../../../images/decoration_line.png") center no-repeat;
+  background: url("../../../public/images/decoration_line.png") center no-repeat;
   height: 13px;
   margin-bottom: 50px;
 }
 
 header {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner1.jpg") no-repeat center center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../../public/images/banner1.jpg") no-repeat center center;
   background-size: cover;
-  height: 900px;
+  height: 700px;
   position: relative;
 }
-header nav .navbar {
+header nav a:hover {
+  background-color: #C82333;
+}
+header nav .nav-link {
+  color: white;
+  padding: 13px 20px !important;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-header .nav-link {
-  color: white;
-  padding: 13px 20px !important;
+header .carousel {
+  position: unset;
 }
-header .taste p {
+header .carousel .carousel-indicators li {
+  width: 25px;
+  height: 25px;
+}
+header .carousel .taste {
+  padding-top: 200px;
+}
+header .carousel .taste p {
   font-family: "Courgette", cursive;
   font-size: 50px;
   color: white;
 }
-header .taste p .small-title {
+header .carousel .taste p .small-title {
   font-size: 30px;
 }
-header .taste p #taste {
+header .carousel .taste p #taste {
   color: #dc3545;
 }
-header .taste .badges {
+header .carousel .taste .badges {
   margin-bottom: 17rem;
-}
-header #caroussel #ronds-gris {
-  display: flex;
-  justify-content: center;
-}
-header #caroussel .rounded-circle {
-  width: 25px;
-  height: 25px;
 }
 
 #header-decoration {
-  background: url("../../../images/bottom_decoration_img.png"), repeat;
+  background: url("../../../public/images/bottom_decoration_img.png"), repeat;
   height: 11px;
   width: 100%;
   margin-top: 30px;
@@ -9586,21 +9595,21 @@ header #caroussel .rounded-circle {
 }
 
 #carte {
-  background: url("../../images/main_bg.jpg") repeat;
+  background: url("../../../public/images/main_bg.jpg") repeat;
 }
 #carte .container {
   background-color: white;
   border: 1px solid #EEEEEE;
 }
 #carte .container .box-left-top {
-  background-image: url("../../../images/box-left-top.png");
+  background-image: url("../../../public/images/box-left-top.png");
   background-repeat: no-repeat;
   background-position-x: left;
   margin: 0;
   padding: 0;
 }
 #carte .container .box-right-top {
-  background: url("../../../images/box-right-top.png");
+  background: url("../../../public/images/box-right-top.png");
   background-repeat: no-repeat;
   background-position-x: right;
   margin: 0;
@@ -9609,12 +9618,12 @@ header #caroussel .rounded-circle {
 #carte .container #menu #icones a {
   border-radius: 0;
 }
-#carte .container #menu #icones #v-pills-home-tab {
+#carte .container #menu #icones .active {
   border-right: 5px solid #dc3545;
   background: transparent;
   padding-right: 11px;
 }
-#carte .container #menu #icones #v-pills-home-tab .fa-mug-hot {
+#carte .container #menu #icones .active i {
   color: #dc3545;
 }
 #carte .container #menu #icones .fas {
@@ -9639,7 +9648,7 @@ header #caroussel .rounded-circle {
   color: #dc3545;
 }
 #carte .container .box-bottom-left {
-  background-image: url("../../../images/box-bottom-left.png");
+  background-image: url("../../../public/images/box-bottom-left.png");
   background-repeat: no-repeat;
   background-position-x: left;
   margin: 0;
@@ -9649,7 +9658,7 @@ header #caroussel .rounded-circle {
   height: 119px;
 }
 #carte .container .box-bottom-right {
-  background: url("../../../images/box-bottom_right.png");
+  background: url("../../../public/images/box-bottom_right.png");
   background-repeat: no-repeat;
   background-position-x: right;
   margin: 0;
@@ -9657,33 +9666,33 @@ header #caroussel .rounded-circle {
 }
 
 #chefs {
-  background: url("/images/team_background.jpg");
+  background: url("../../../public/images/team_background.jpg");
   background-size: cover;
 }
 
 #book-blog {
-  background: url("../../images/main_bg.jpg") repeat;
+  background: url("../../../public/images/main_bg.jpg"), repeat;
 }
 #book-blog .container {
   background-color: white;
   border: 1px solid #EEEEEE;
 }
 #book-blog #book .box-left-top {
-  background-image: url("../../../images/box-left-top-grey.png");
+  background-image: url("../../../public/images/box-left-top-grey.png");
   background-repeat: no-repeat;
   background-position-x: left;
   margin: 0;
   padding: 0;
 }
 #book-blog #book .box-right-top {
-  background: url("../../../images/box-right-top-grey.png");
+  background: url("../../../public/images/box-right-top-grey.png");
   background-repeat: no-repeat;
   background-position-x: right;
   margin: 0;
   padding: 0;
 }
 #book-blog .bg-table {
-  background: url("../../../images/book_table_bg.jpg");
+  background: url("../../../public/images/book_table_bg.jpg");
   padding: 30px 70px;
   border-radius: 15px;
 }
@@ -9715,7 +9724,7 @@ header #caroussel .rounded-circle {
   padding: 30px;
 }
 #book-blog #blog .box-left-bottom {
-  background-image: url("../../../images/box-bottom-left-grey.png");
+  background-image: url("../../../public/images/box-bottom-left-grey.png");
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: bottom;
@@ -9723,7 +9732,7 @@ header #caroussel .rounded-circle {
   padding: 0;
 }
 #book-blog #blog .box-right-bottom {
-  background: url("../../../images/box-bottom_right-grey.png");
+  background: url("../../../public/images/box-bottom_right-grey.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -9751,7 +9760,7 @@ header #caroussel .rounded-circle {
 }
 
 #testimonials {
-  background: url("../../../images/testimonials_background.jpg");
+  background: url("../../../public/images/testimonials_background.jpg");
   background-size: cover;
 }
 #testimonials .rounded-circle {
@@ -9767,14 +9776,14 @@ header #caroussel .rounded-circle {
 }
 
 #contact {
-  background: url("../../images/main_bg.jpg");
+  background: url("../../../public/images/main_bg.jpg");
 }
 #contact .bg-danger {
   border-radius: 10px;
 }
 
 footer {
-  background: url("../../../images/footer_background.jpg");
+  background: url("../../../public/images/footer_background.jpg");
   position: relative;
   background-size: cover;
 }
@@ -9785,14 +9794,11 @@ footer p {
   font-weight: lighter;
 }
 footer #footer-decoration {
-  background: url("../../../images/footer_bottom_decoration_img.png"), repeat;
+  background: url("../../../public/images/footer_bottom_decoration_img.png"), repeat;
   height: 11px;
   width: 100%;
   position: absolute;
   top: 0;
-}
-footer i {
-  background-color: white;
 }
 
 @font-face {
